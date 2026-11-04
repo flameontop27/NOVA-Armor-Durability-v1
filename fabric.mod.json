@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nova_armor_durability",
+  "version": "${version}",
+  "name": "NOVA Armor Durability",
+  "description": "A simple client-side HUD showing armor durability with green, yellow, and red status colors.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nova.armordurability.NovaArmorDurabilityClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
